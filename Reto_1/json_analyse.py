@@ -2,12 +2,6 @@ import geojson
 import numpy as np
 from tqdm import tqdm
 from itertools import product
-from math import ceil
-
-
-def round_up(n, decimals=0):
-    multiplier = 10 ** decimals
-    return ceil(n * multiplier) / multiplier
 
 
 def find_nearest(array, value):
